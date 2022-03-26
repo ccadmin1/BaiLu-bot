@@ -11,10 +11,10 @@ def is_enabled(value, default):
         return default
 
 # Bot information
-SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ['API_ID'])
-API_HASH = environ['API_HASH']
-BOT_TOKEN = environ['BOT_TOKEN']
+SESSION = environ.get('SESSION', 'BaiLu')
+API_ID = int(environ['API_ID','9244035'])
+API_HASH = environ['API_HASH','66c62a85cfbf593a991ea680223a0549']
+BOT_TOKEN = environ['BOT_TOKEN','-1005282773821:AAH44gQDzCKbp-0L1rTz9lvbyKu7XyAOrN8']
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -22,23 +22,23 @@ USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
 PICS = (environ.get('PICS', 'https://telegra.ph/file/fc06688a71c96183133f7.jpg https://telegra.ph/file/2623a6a6c763b299143dc.jpg https://telegra.ph/file/f14605ffad7443e4c0163.jpg https://telegra.ph/file/78e70dda2214d4a132a72.jpg https://telegra.ph/file/d8224d6b1a800dba48ed6.jpg https://telegra.ph/file/4c7fdf79893a072ab5e45.jpg https://telegra.ph/file/e68c9358e8de813e54982.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '897298824').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
 auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-ADMINS.append(1684438752)
-auth_channel = environ.get('AUTH_CHANNEL')
+ADMINS.append(5088475411)
+auth_channel = environ.get('AUTH_CHANNEL','-1001589993396')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://diluter:diluter@cluster0.hfgka.mongodb.net/myFirstDatabase?retryWrites=true&w=majority")
 DATABASE_NAME = environ.get('DATABASE_NAME', "BaiLu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'MovieBot')
 
 # Others
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001509895693'))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemacollections')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
 IMDB = is_enabled((environ.get('IMDB', "True")), True)
