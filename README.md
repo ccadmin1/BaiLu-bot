@@ -4,7 +4,7 @@
 
 </p>
 
-<img src="https://telegra.ph/file/d053a8e9ef4ed93df38a0.jpg"><br>
+<img src="https://telegra.ph/file/f4b2c80ff3c8a98941108.jpg"><br>
 
 ## Features
 
