@@ -1,5 +1,5 @@
 echo "Cloning Repo, Please Wait..."
-git clone -b master https://github.com/ccadmin1/BaiLu.git /BaiLu
+git clone -b master https://github.com/ccadmin1/BaiLu /BaiLu
 cd /BaiLu
 echo "Installing Requirements..."
 pip3 install -U -r requirements.txt
