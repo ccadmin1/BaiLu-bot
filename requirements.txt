@@ -14,7 +14,7 @@ requests
 pyshorteners
 bs4
 imdbpy
-youtube-search-python==1.4.6
+youtube-search-python
 youtube_search
 youtube-dl
 yt-dlp
@@ -24,7 +24,7 @@ ffmpeg-python
 requests
 ytthumb
 pyrogram
-python3
+
 pyromod
 
 requests
