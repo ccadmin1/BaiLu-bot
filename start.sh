@@ -1,7 +1,23 @@
-echo "Cloning Repo, Please Wait..."
-git clone -b master https://github.com/ccadmin1/BaiLu /BaiLu
-cd /Bailu
-echo "Installing Requirements..."
+if [ -z $UPSTREAM_REPO ]
+
+then
+
+  echo "Cloning main Repository"
+
+  git clone https://github.com/ccadmin1/BaiLu /BaiLu
+
+else
+
+  echo "Cloning Custom Repo from $UPSTREAM_REPO "
+
+  git clone $UPSTREAM_REPO /BaiLu
+
+fi
+
+cd /BaiLu
+
 pip3 install -U -r requirements.txt
-echo "Starting Bot, Please Wait..."
-python3 bot.py
+
+echo "BaiLu bot runing...."
+
+python3 main.py
