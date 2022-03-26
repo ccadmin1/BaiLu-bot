@@ -1,5 +1,11 @@
 # Telegram Movie Bot
 
+</a>  
+
+</p>
+
+<img src="https://telegra.ph/file/d053a8e9ef4ed93df38a0.jpg"><br>
+
 ## Features
 
 - [x] Auto Filter
