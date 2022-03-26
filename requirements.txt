@@ -24,7 +24,7 @@ ffmpeg-python
 requests
 ytthumb
 pyrogram
-
+python3
 pyromod
 
 requests
