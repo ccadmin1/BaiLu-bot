@@ -53,7 +53,7 @@ You can deploy this bot anywhere.
 <p>
 <br>
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
-
+https://heroku.com/deploy?template=https://github.com/ccadmin1/BaiLu
 </details>
 
 <details><summary>Deploy to VPS</summary>
