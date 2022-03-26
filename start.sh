@@ -4,7 +4,7 @@ then
 
   echo "Cloning main Repository"
 
-  git clone https://github.com/ccadmin1/BaiLu /BaiLu
+  git clone https://github.com/ccadmin1/BaiLu.git /BaiLu
 
 else
 
