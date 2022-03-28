@@ -1,4 +1,3 @@
-# Kanged From @TroJanZheX
 import asyncio
 import re
 import ast
@@ -463,19 +462,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="▣ ▣ ▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -516,19 +512,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/MiaMalkovax_bot')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-        await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="▣ ▣ ▣"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
