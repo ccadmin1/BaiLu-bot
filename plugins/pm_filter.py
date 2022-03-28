@@ -827,7 +827,6 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "stats":
-    await query.answer("🇺‌🇵‌🇩‌🇦‌🇹‌🇮‌🇳‌🇬‌........")
         buttons = [[
             InlineKeyboardButton('« Back', callback_data='about'),
             InlineKeyboardButton('Refresh ', callback_data='rfrsh')
