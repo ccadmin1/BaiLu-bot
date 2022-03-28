@@ -14,7 +14,7 @@
 
 from pyrogram import Client, filters
 from pyrogram.types import Message
-from plugins.josprojects.help_func.cust_p_filters import (
+from plugins.extraplugins.help_func.cust_p_filters import (
     admin_fliter
 )
 
