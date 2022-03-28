@@ -362,7 +362,7 @@ a bot to create a link to share text in the telegram.
 <b>᚛› 𝐀𝐝𝐝𝐞𝐝 𝐁𝐲 ⪼ {}</b>
 """
 
-    LOG_TEXT_P = """"""#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
+    LOG_TEXT_P = """""#𝐍𝐞𝐰𝐔𝐬𝐞𝐫
     
 <b>᚛› 𝐈𝐃 - <code>{}</code></b>
 <b>᚛› 𝐍𝐚𝐦𝐞 - {}</b>
