@@ -264,7 +264,7 @@ This module only works for my admins
 <b>᚛› 𝚃𝙾𝚃𝙰𝙻 𝙲𝙷𝙰𝚃𝚂: <code>1{}</code></b>
 <b>᚛› 𝚄𝚂𝙴𝙳 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>2{}</code> 𝙼𝙱</b>
 <b>᚛› 𝙵𝚁𝙴𝙴 𝚂𝚃𝙾𝚁𝙰𝙶𝙴: <code>3{}</code> 𝙼𝙱</b>"""
-    FORCESUB_TXT = ""
+    FORCESUB_TXT = """
 **👇 ᴊᴏɪɴ ᴛʜɪs ᴄʜᴀɴɴᴇʟ & ᴛʀʏ ᴀɢᴀɪɴ 👇**"""
 
     MEMES_TXT = """Help: <b>Memes</b>
