@@ -137,7 +137,7 @@ async def aboutme(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
             photo=random.choice(PICS),
-            caption=script.ABOUTME_TXT.format(message.from_user.mention),
+            caption=Script.ABOUTME_TXT.format(message.from_user.mention),
             reply_markup=reply_markup,
             parse_mode='html'
         )
