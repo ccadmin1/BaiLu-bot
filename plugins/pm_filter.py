@@ -524,6 +524,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             parse_mode='html'
         )
     elif query.data == "about":
+        buttons = [[
         InlineKeyboardButton('ᴊᴏɪɴ ɢʀᴏᴜᴘ', url=f'http://t.me/cinema_collectionsGroup')
             ],[
             InlineKeyboardButton('𝚂𝚝𝚊𝚝𝚞𝚜', callback_data='stats'),
