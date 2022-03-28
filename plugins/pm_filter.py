@@ -432,16 +432,13 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 f_caption = f_caption
         if f_caption is None:
             f_caption = f"{title}"
-        buttons = [
-            [
-            [
+        buttons = [[
                 InlineKeyboardButton("ɢʀᴏᴜᴘ", url="https://t.me/cinema_collectionsGroup"),
                 InlineKeyboardButton("ᴜᴘᴅᴀᴛᴇs️", url="https://t.me/+eyLC_ZNoehZhOWI1")
             ],
             [
                 InlineKeyboardButton("️ᴄɪɴᴇᴍᴀᴄᴏʟʟᴇᴄᴛɪᴏɴs",url="https://t.me/cinemacollections")
-            ]
-            ]
+                 ]]
         await query.answer()
         await client.send_cached_media(
             chat_id=query.from_user.id,
