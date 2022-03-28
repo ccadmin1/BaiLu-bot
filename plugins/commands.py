@@ -31,7 +31,7 @@ async def start(client, message):
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
-        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgIAAxkBAAL8sGI941hYY94U8HP5TGIUHCMCjyn4AAJUAANBtVYMarf4xwiNAfojBA', reply_markup=reply_markup, reply_to_message_id=message.message_id)
+        await client.send_sticker(chat_id=message.chat.id, sticker='CAACAgUAAxkBAAKRKmJBkRQybxjNHRUq9HFDHUOKvHImAAIVAQACyJRkFGZEMKKnFWwTHgQ', reply_markup=reply_markup, reply_to_message_id=message.message_id)
         await asyncio.sleep(60)
         if not await db.get_chat(message.chat.id):
             total=await client.get_chat_members_count(message.chat.id)
@@ -54,7 +54,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
-        m=await message.reply_sticker("CAACAgIAAxkBAAL8sGI941hYY94U8HP5TGIUHCMCjyn4AAJUAANBtVYMarf4xwiNAfojBA") 
+        m=await message.reply_sticker("CAACAgUAAxkBAAKRKmJBkRQybxjNHRUq9HFDHUOKvHImAAIVAQACyJRkFGZEMKKnFWwTHgQ") 
         await asyncio.sleep(2)
         await m.delete()
         await message.reply_chat_action("typing")
@@ -65,7 +65,7 @@ async def start(client, message):
             parse_mode='html'
         )
         await message.reply_chat_action("Typing")
-        m=await message.reply_sticker("CAACAgIAAxkBAALM92FCA7nJ0xO28le2iKiRD2DrcC_uAALjCwAC5BYZSL-eHHlJTzE1IAQ") 
+        m=await message.reply_sticker("CAACAgUAAxkDAAKRlWJByf5FgI7UNzmZS4uzcbTU-Ns6AAKcAAPIlGQUc48AAfPaxYX8HgQ") 
         await asyncio.sleep(20)
         await m.delete()
         return
