@@ -1,4 +1,3 @@
-# Kanged From @TroJanZheX
 import asyncio
 import re
 import ast
@@ -70,7 +69,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"[{get_size(file.file_size)}] {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"📁[{get_size(file.file_size)}] ▫️ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -454,27 +453,29 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('ᴊᴏɪɴ ɢʀᴏᴜᴘ', url=f'http://t.me/Cinema_CollectionsGroup')
+            InlineKeyboardButton('ᴊᴏɪɴ ɢʀᴏᴜᴘ', url=f'https://t.me/+eyLC_ZNoehZhOWI1')
             ],[
             InlineKeyboardButton('ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('ᴀʙᴏᴜᴛ', callback_data='about')
             ],[
+            InlineKeyboardButton('🔍𝚂𝚎𝚊𝚛𝚌𝚑 𝙷𝚎𝚛𝚎 𝙼𝚘𝚟𝚒𝚎🔎', switch_inline_query_current_chat='')
+            ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="▣ ▣ ▣"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="Bai lu"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -512,22 +513,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('Zombies', callback_data='zombies'),
             InlineKeyboardButton('« Back', callback_data='start'),
-            InlineKeyboardButton('Adult Bot 🔞', url='https://t.me/MiaMalkovax_bot')
         ]]
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣ ▢ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣ ▣ ▢"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="▣ ▣ ▣"
         )
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="Bai lu"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -545,6 +545,21 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
+        await query.message.edit_text(
+            text="▢ ▢ ▢"
+        )
+        await query.message.edit_text(
+            text="▣ ▢ ▢"
+        )
+        await query.message.edit_text(
+            text="▣ ▣ ▢"
+        )
+        await query.message.edit_text(
+            text="▣ ▣ ▣"
+        )
+        await query.message.edit_text(
+            text="Bai lu"
+        )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
             text=Script.ABOUT_TXT.format(temp.B_NAME),
