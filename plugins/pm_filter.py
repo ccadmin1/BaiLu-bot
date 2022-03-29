@@ -462,23 +462,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
+
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗"
+
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⭗ ⭗ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⭗ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿"
+
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -551,23 +563,35 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ʙᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
+
         await query.message.edit_text(
-            text="⭗ ⭗ ⭗ ⭗ ⭗"
+
+            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⭗ ⭗ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⭗ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⭗ ⭗"
+
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+
         )
+
         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⭗"
-        )
-         await query.message.edit_text(
-            text="⦿ ⦿ ⦿ ⦿ ⦿"
+
+            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
