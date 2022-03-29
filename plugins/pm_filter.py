@@ -463,19 +463,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="▢   ▢   ▢"
+            text="⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▢   ▢"
+            text="⦿ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▢"
+            text="⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▣"
+            text="⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="B a i l u"
+            text="⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+         await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -515,19 +518,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='start'),
         ]]
         await query.message.edit_text(
-            text="▢   ▢   ▢"
+            text="⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▢   ▢"
+            text="⦿ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▢"
+            text="⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▣"
+            text="⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="B a i l u"
+            text="⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+         await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -546,19 +552,22 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="▢   ▢   ▢"
+            text="⭗ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▢   ▢"
+            text="⦿ ⭗ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▢"
+            text="⦿ ⦿ ⭗ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="▣   ▣   ▣"
+            text="⦿ ⦿ ⦿ ⭗ ⭗"
         )
         await query.message.edit_text(
-            text="B a i l u"
+            text="⦿ ⦿ ⦿ ⦿ ⭗"
+        )
+         await query.message.edit_text(
+            text="⦿ ⦿ ⦿ ⦿ ⦿"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
