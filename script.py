@@ -26,7 +26,8 @@ My name is <a href=https://t.me/{}>{}</a>!
 ┃┏━┓┃┏┓┣┫┃┃╋┏┫┃┃┃
 ┃┗━┛┃┏┓┃┃┃┗━┛┃┗┛┃
 ┗━━━┻┛┗┻┛┗━━━┻━━┛
-║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - :<a href='tg://user?id=5088475411'><b>arno DC4</b></a>
+║➠ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁 - <a href='tg://user?id=5088475411'><b>arno DC4</b></a>
+║➠ 𝙳𝙴𝚅𝙴𝙻𝙾𝙿𝙴𝚁 - <a href='tg://user?id=5133623467'><b>𝑦𝑒𝑠 //ᴍᴏʀᴇ ᴋᴀɴɢɪɴɢ</b></a>
 ║➠ 𝙻𝙰𝙽𝙶𝚄𝙰𝙶𝙴 - <a href='https://docs.pyrogram.org/'>𝑷𝒚𝒕𝒉𝒐𝒏 3 </a>
 ║➠ 𝙻𝙸𝙱𝚁𝙰𝚁𝚈 - <a href='https://docs.pyrogram.org/'>𝑷ʏʀᴏɢʀᴀᴍ </a>
 ║➠ 𝙲𝙻𝙾𝙽𝙴𝙳 𝙵𝚁𝙾𝙼 - EvaMaria
@@ -39,8 +40,7 @@ My name is <a href=https://t.me/{}>{}</a>!
 ░▀▀▀▄▄ █░░█ █░░█ █▄▄▀ █░░ █▀▀ 
 ▒█▄▄▄█ ▀▀▀▀ ░▀▀▀ ▀░▀▀ ▀▀▀ ▀▀▀
  "<b>Source:</b>
-This bot is a Close source project.But my source code would be here
-Source: <a href='https://Github.com/EvaMariaTG/EvaMaria'>Source - Click here 👈</a>"""
+NOTE:👋എന്താടാ മോനെ നോക്കുന്നേ നിനക്ക് ആവശ്യമായിട്ടുള്ളത് ഇവിടെ ഇല്ല 😌👮‍♂ ᴅᴇᴠʟᴏᴘᴇʀ : <a href='tg://user?id=5133623467'><b>𝑦𝑒𝑠 //ᴍᴏʀᴇ ᴋᴀɴɢɪɴɢ</b></a>
 
     MANUALFILTER_TXT = """Help: <b>Filters</b>
 
