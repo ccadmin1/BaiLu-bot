@@ -259,7 +259,7 @@ async def start(client, message):
             InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/cinema_collectionsGroup')
         ],
         [
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/cinemacollectionsl')
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url=f'https://t.me/cinemacollections')
         ]
         ]
     await client.send_cached_media(
