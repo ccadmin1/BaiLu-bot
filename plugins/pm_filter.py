@@ -69,7 +69,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"📁[{get_size(file.file_size)}] ▫️ {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"📁 [{get_size(file.file_size)}] ✔︎ {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -78,7 +78,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🗂️{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -463,19 +463,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="▢ ▢ ▢"
+            text="▢   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="▣   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="▣   ▣   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="▣   ▣   ▣"
         )
         await query.message.edit_text(
-            text="Bai lu"
+            text="B a i l u"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -515,19 +515,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('« Back', callback_data='start'),
         ]]
         await query.message.edit_text(
-            text="▢ ▢ ▢"
+            text="▢   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="▣   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="▣   ▣   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="▣   ▣   ▣"
         )
         await query.message.edit_text(
-            text="Bai lu"
+            text="B a i l u"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -546,19 +546,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('ᴄʟᴏsᴇ', callback_data='close_data')
         ]]
         await query.message.edit_text(
-            text="▢ ▢ ▢"
+            text="▢   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▢ ▢"
+            text="▣   ▢   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▢"
+            text="▣   ▣   ▢"
         )
         await query.message.edit_text(
-            text="▣ ▣ ▣"
+            text="▣   ▣   ▣"
         )
         await query.message.edit_text(
-            text="Bai lu"
+            text="B a i l u"
         )
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -950,7 +950,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"🗂️{file.file_name}",
+                    text=f"{file.file_name}",
                     callback_data=f'{pre}#{file.file_id}',
                 ),
                 InlineKeyboardButton(
