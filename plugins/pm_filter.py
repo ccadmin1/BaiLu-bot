@@ -78,7 +78,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"{file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"📁{file.file_name}✔︎", callback_data=f'files#{file.file_id}'
                 ),
                 InlineKeyboardButton(
                     text=f"{get_size(file.file_size)}",
@@ -465,31 +465,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         await query.message.edit_text(
 
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣  ▣  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="▣  ▣  ▣"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="𝙱𝚊𝚒 𝙻𝚞"
 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -532,31 +528,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         await query.message.edit_text(
 
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣  ▣  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="▣  ▣  ▣"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="𝙱𝚊𝚒 𝙻𝚞"
 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -578,31 +570,27 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
         await query.message.edit_text(
 
-            text="⭗ ⭗ ⭗ ⭗ ⭗ ⭗"
+            text="▢  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⭗ ⭗ ⭗"
+            text="▣  ▢  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⭗ ⭗"
+            text="▣  ▣  ▢"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⭗"
+            text="▣  ▣  ▣"
 
         )
-
         await query.message.edit_text(
 
-            text="⦿ ⦿ ⦿ ⦿ ⦿ ⦿"
+            text="𝙱𝚊𝚒 𝙻𝚞"
 
         )
         reply_markup = InlineKeyboardMarkup(buttons)
