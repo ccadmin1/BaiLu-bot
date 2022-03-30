@@ -55,7 +55,7 @@ async def start(client, message):
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
         m=await message.reply_sticker("CAACAgUAAxkBAAKRKmJBkRQybxjNHRUq9HFDHUOKvHImAAIVAQACyJRkFGZEMKKnFWwTHgQ") 
-        await asyncio.sleep(12)
+        await asyncio.sleep(3)
         await m.delete()
         await message.reply_chat_action("typing")
         await message.reply_photo(
@@ -66,7 +66,7 @@ async def start(client, message):
         )
         await message.reply_chat_action("Typing")
         m=await message.reply_sticker("CAACAgUAAxkDAAKRlWJByf5FgI7UNzmZS4uzcbTU-Ns6AAKcAAPIlGQUc48AAfPaxYX8HgQ") 
-        await asyncio.sleep(20)
+        await asyncio.sleep(30)
         await m.delete()
         return
     if AUTH_CHANNEL and not await is_subscribed(client, message):
@@ -107,7 +107,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_chat_action("typing")
-        await asyncio.sleep(12)
+        await asyncio.sleep(3)
         await m.delete()
         await message.reply_chat_action("typing")
         await message.reply_photo(
