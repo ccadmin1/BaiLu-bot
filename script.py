@@ -1,4 +1,4 @@
-class Script(object):
+class script(object):
     START_TXT = """Hello {},
 
 My name is <a href=https://t.me/{}>{}</a>!
