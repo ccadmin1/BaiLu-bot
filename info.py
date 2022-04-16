@@ -38,6 +38,8 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "BaiLu")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'MovieBot')
 
 # Others
+CH_LINK = environ.get('CH_LINK', "")
+CH_FILTER = int(environ.get('CH_FILTER', 0))
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', 0))
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'cinemacollections')
 P_TTI_SHOW_OFF = is_enabled((environ.get('P_TTI_SHOW_OFF', "True")), True)
